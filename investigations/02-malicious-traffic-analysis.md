@@ -31,6 +31,15 @@ tcp.port == 53 && !dns
 
 ### Identify packets from that traffic containing TCP payload data
 
+## 8. Evidence
+
+The following screenshots support the observations documented in this investigation.
+
+- **Windows shell conversation:** [View shell output](../evidence/02-windows-shell-stream.png) — shows the Windows XP command prompt and directory listing observed in the TCP stream.
+- **TCP payload analysis:** [View packet evidence](../evidence/03-tcp-port-53-payload.png) — shows the filtered TCP traffic involving port 53 and the selected packet with a 1,011-byte payload.
+
+The screenshots provide supporting evidence for the analysis; they should be interpreted alongside the methodology, findings and limitations described above.
+
 ```text
 tcp.port == 53 && tcp.len > 0 && !dns
 ```
