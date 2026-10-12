@@ -71,4 +71,15 @@ The report distinguishes packet-level observations from interpretations and expl
 
 This project uses existing sample packet captures for educational purposes. The investigations were conducted offline; no malware was executed and no external systems were contacted as part of the analysis.
 
-Findings relate to the traffic present in each supplied capture. The results
+Findings relate to the traffic present in each supplied capture. These are historical observations from sample data and should not be interpreted as evidence of current network activity or a live security incident.
+
+## Skills Demonstrated
+
+- Wireshark packet analysis
+- DNS query and response analysis
+- TCP port and payload analysis
+- Display-filter construction
+- TCP stream reconstruction
+- Evidence-based security investigation
+- Technical reporting and documentation
+- Distinguishing observations from assumptions
