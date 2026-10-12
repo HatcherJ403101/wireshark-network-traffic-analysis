@@ -1,5 +1,5 @@
 # Wireshark Network Traffic Analysis
-
+ 
 ## Project Overview
 
 This project demonstrates foundational network traffic analysis and security investigation skills using Wireshark and publicly available sample packet captures.
